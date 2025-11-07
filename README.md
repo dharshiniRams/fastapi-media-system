@@ -16,15 +16,10 @@ Features
 media_system/
 
 │── crud.py
-
 │── database.py
-
 │── main.py
-
 │── models.py
-
 │── schemas.py
-
 │── requirements.txt
 ```
 **Installation & Setup**
