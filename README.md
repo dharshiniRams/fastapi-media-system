@@ -70,23 +70,25 @@ http://127.0.0.1:8000/docs
 **API Endpoints**
 **Customers**
 
-Method - Endpoint	      - Description
-
-POST	 - /customer	    - Create customer
-GET	   - /customers	Get - all customers
-GET	   - /customer/{id}	- Get customer by ID
-DELETE - /customer/{id}	- Delete customer
+| Method | Endpoint       | Description        |
+|--------|----------------|--------------------|
+| POST   | /customer      | Create customer    |
+| GET    | /customers     | Get all customers  |
+| GET    | /customer/{id} | Get customer by ID |
+| DELETE | /customer/{id} | Delete customer    |
 
 **Media**
 
-Method	 - Endpoint	   - Description
+| Method | Endpoint           | Description             |
+|--------|--------------------|-------------------------|
+| POST   | /media             | Create media            |
+| GET    | /media             | Get all media           |
+| GET    | /media/{id}        | Get media by ID         |
+| PUT    | /media/{id}        | Update media            |
+| PUT    | /media/{id}/return | Return media            |
+| DELETE | /media/{id}        | Delete media            |
 
-POST	   - /media	     - Add media item
-GET	     - /media	     - Get all media
-GET	     - /media/{id} - Get media by ID
-PUT	     - /media/{id} - Update media details
-DELETE	 - /media/{id} - Delete media item
-Testing
+**Testing**
 
 Use docs UI:
 ```
