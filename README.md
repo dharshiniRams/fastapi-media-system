@@ -27,8 +27,7 @@ media_system/
 
 │── requirements.txt
 ```
-**
-Installation & Setup**
+**Installation & Setup**
 
 1. Clone the Repository
 ```
@@ -74,8 +73,7 @@ Interactive API docs:
 http://127.0.0.1:8000/docs
 ```
 **API Endpoints**
-
-Customers
+**Customers**
 
 Method - Endpoint	      - Description
 
@@ -84,7 +82,7 @@ GET	   - /customers	Get - all customers
 GET	   - /customer/{id}	- Get customer by ID
 DELETE - /customer/{id}	- Delete customer
 
-Media
+**Media**
 
 Method	 - Endpoint	   - Description
 
