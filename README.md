@@ -1,4 +1,4 @@
-##FastAPI Media Store System##
+**FastAPI Media Store System**
 
 A simple and clean FastAPI application for managing customers and media items (books, music, videos, etc.).
 This project uses FastAPI, SQLAlchemy, and Pydantic to demonstrate a complete CRUD system.
@@ -10,8 +10,8 @@ Features
     View all media
     SQLAlchemy ORM with PostgreSQL
     Automatic schema validation with Pydantic
-
-##Project Structure##
+    
+**Project Structure**
 ```
 media_system/
 
@@ -27,8 +27,8 @@ media_system/
 
 │── requirements.txt
 ```
-
-##Installation & Setup##
+**
+Installation & Setup**
 
 1. Clone the Repository
 ```
@@ -48,7 +48,7 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-##Database Setup##
+**Database Setup**
 
 You can update the connection string in database.py to use PostgreSQL/MySQL or use SQLite.
 
@@ -58,7 +58,7 @@ SQLite example (already configured):
 SQLALCHEMY_DATABASE_URL = "sqlite:///./media.db"
 ```
 
-##Run the FastAPI Server##
+**Run the FastAPI Server**
 
 ```
 uvicorn main:app --reload
@@ -73,7 +73,7 @@ Interactive API docs:
 ```
 http://127.0.0.1:8000/docs
 ```
-##API Endpoints##
+**API Endpoints**
 
 Customers
 
